@@ -1,0 +1,61 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="compile -Dminimize=false" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Runs Maven build" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Maven" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="mvn" />
+      <option name="scopeName" value="src/main" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Sites/finpub-ic-mobile" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="/tmp/phpstorm_test" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Test watcher" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="php" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Test" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="touch" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Rsync to dev" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="*" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Rsync to dev" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Sites/ft-blogs-local/deploy-dev.sh" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Sites/ft-blogs-local" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>

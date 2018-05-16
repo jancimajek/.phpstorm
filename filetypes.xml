@@ -1,0 +1,54 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="erb" type="C++" />
+      <mapping ext="vcl" type="C++" />
+      <mapping ext="orig" type="Ini" />
+      <mapping pattern="memcacheaccess" type="PHP" />
+      <mapping pattern="googleanalytics" type="PHP" />
+      <mapping pattern="pricingsearch" type="PHP" />
+      <mapping pattern="pricingquote" type="PHP" />
+      <mapping pattern="FTAuthCommon" type="PHP" />
+      <mapping pattern="index" type="PHP" />
+      <mapping pattern="HTTPResponse" type="PHP" />
+      <mapping pattern="HTTPRequest" type="PHP" />
+      <mapping pattern="feeds" type="PHP" />
+      <mapping pattern="portfolios" type="PHP" />
+      <mapping pattern="cacheability" type="PHP" />
+      <mapping pattern="admin" type="PHP" />
+      <mapping pattern="common" type="PHP" />
+      <mapping pattern="templatemanager" type="PHP" />
+      <mapping pattern="MarketsHomeChart" type="PHP" />
+      <mapping pattern="sort" type="PHP" />
+      <mapping pattern="AddPostIndexingJobTest" type="PHP" />
+      <mapping pattern="tab" type="PHP" />
+      <mapping pattern="widgetpreview" type="PHP" />
+      <mapping pattern="YesterdaysIndices" type="PHP" />
+      <mapping pattern="MySqlConnection" type="PHP" />
+      <mapping pattern="ftauth" type="PHP" />
+      <mapping pattern="delete" type="PHP" />
+      <mapping pattern="ApiFormatContent" type="PHP" />
+      <mapping pattern="edit" type="PHP" />
+      <mapping pattern="preview" type="PHP" />
+      <mapping pattern="generatepassword" type="PHP" />
+      <mapping pattern="authenticate" type="PHP" />
+      <mapping pattern="logger" type="PHP" />
+      <mapping pattern="browseinner" type="PHP" />
+      <mapping pattern="InvalidInput" type="PHP" />
+      <mapping pattern="pricing" type="PHP" />
+      <mapping pattern="Settings" type="PHP" />
+      <mapping pattern="auth" type="PHP" />
+      <mapping pattern="errorhandler" type="PHP" />
+      <mapping pattern="global" type="PHP" />
+      <mapping pattern="view" type="PHP" />
+      <mapping pattern="mysql" type="PHP" />
+      <mapping pattern="layout" type="PHP" />
+      <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="cat" type="PLAIN_TEXT" />
+      <mapping ext="p12" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

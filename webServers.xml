@@ -1,0 +1,36 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ac36eb08-88f3-4caf-8823-e7f9abdebaea" name="ftweb107-lvpr-uk-d" url="http://dev.thebanker.com">
+        <fileTransfer host="ftweb107-lvpr-uk-d" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/opt/customer/sites/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="883c29e3-584c-48f0-8a2c-7a70c0693e47" name="shell.ak.ft.com" url="http://janmajek.sandboxes.clamoui.ftdata.co.uk">
+        <fileTransfer host="shell.ak.ft.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/Jan.Majek/sandboxes" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a5ecc8fd-0e44-448e-9295-7be99a8c8941" name="coreftco" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="2a7981d5-2ae9-4a13-9d2c-48679169b69d" name="ftweb27089-law1a-eu-ci" url="http://jan.blogs.ft.com">
+        <fileTransfer host="ftweb27089-law1a-eu-ci" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/temp/Jan.Majek" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c10ec9d2-2403-4f30-9858-942150c90246" name="Fast FT" url="http://local.ft.com:5000/fastft">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

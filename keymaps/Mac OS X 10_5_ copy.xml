@@ -1,0 +1,88 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl meta a" />
+  </action>
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+  </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift meta v" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="Git.CreateNewTag">
+    <keyboard-shortcut first-keystroke="ctrl meta t" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
+  <action id="Git.Push">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
+  <action id="MoveLineDown" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta alt v" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Tool_Build_Maven">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="ctrl meta k" />
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl meta v" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
+  </action>
+  <action id="VcsHistory.ShowAllAffected" />
+  <action id="WebServicesPlugin.CreateRESTClient">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+</keymap>

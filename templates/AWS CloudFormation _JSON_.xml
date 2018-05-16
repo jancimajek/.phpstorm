@@ -1,0 +1,9 @@
+<templateSet group="AWS CloudFormation (JSON)">
+  <template name="att" value="{ &quot;Fn::GetAtt&quot; : [ &quot;$RES$&quot;, &quot;$ATTR$&quot; ] }" description="Fn::GetAtt intrinsic function returns the value of an attribute from a resource in the template." toReformat="false" toShortenFQNames="true">
+    <variable name="RES" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ATTR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AWS_CLOUD_FORMATION_JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

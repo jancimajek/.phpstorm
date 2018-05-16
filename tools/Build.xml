@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolSet name="Build">
+  <tool name="Maven" description="Build Maven" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn" />
+      <option name="PARAMETERS" value="compile -Dminimize=false" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
+

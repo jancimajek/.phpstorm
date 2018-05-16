@@ -1,0 +1,9 @@
+<toolSet name="Blogs tools">
+  <tool name="Synchronise blogs" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="sync_ftblogs" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/bin" />
+    </exec>
+  </tool>
+</toolSet>
